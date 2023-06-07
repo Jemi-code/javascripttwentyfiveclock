@@ -1,0 +1,25 @@
+@import "custom";
+
+.wrapper{
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.session-place{
+    border: 10px solid $secondary-color;
+    border-radius: 40px !important;
+}
+
+[role = "button"]:hover,[role = "button"] > i:hover{
+    color: $secondary-color !important;
+    transition: all !important;
+}
+
+p {
+    padding: $spacer * 0.4;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+
+
